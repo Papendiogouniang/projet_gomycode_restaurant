@@ -1,0 +1,80 @@
+/* Styles personnalisés pour le restaurant Jolof */
+body {
+    font-family: 'Poppins', sans-serif; /* Définit la police de caractères pour toute la page */
+  }
+  
+  /* Section héros (bannière principale de la page) */
+  .hero-section {
+    background-image: url('images/Capture d’écran (324).png'); /* Définit l'image de fond */
+    background-size: cover; /* Ajuste l'image pour couvrir toute la section */
+    background-position: center; /* Centre l'image de fond */
+    height: 100vh; /* Définit une hauteur équivalente à 100% de la hauteur de l'écran */
+    display: flex; /* Utilise flexbox pour centrer le contenu */
+    align-items: center; /* Centre verticalement le contenu */
+    justify-content: center; /* Centre horizontalement le contenu */
+    color: white; /* Définit la couleur du texte en blanc */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre au texte pour améliorer la lisibilité */
+  }
+  
+  /* Contenu de la section héros */
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Ajoute un fond semi-transparent pour améliorer la lisibilité du texte */
+    padding: 2rem; /* Ajoute un espace intérieur de 2rem */
+    border-radius: 10px; /* Arrondit les coins */
+  }
+  
+  /* Effet d'animation pour les cartes */
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ajoute une transition fluide pour l'effet de survol */
+  }
+  
+  /* Effet au survol d'une carte */
+  .card:hover {
+    transform: translateY(-10px); /* Déplace la carte vers le haut de 10px */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Ajoute une ombre plus prononcée */
+  }
+  
+  /* Ajustement des images dans les cartes */
+  .card img {
+    height: 250px; /* Définit une hauteur fixe */
+    object-fit: cover; /* Recadre l'image pour qu'elle remplisse son conteneur sans déformation */
+  }
+  
+  /* Style du pied de page */
+  .footer {
+    background-color: #343a40; /* Définit une couleur de fond sombre */
+    padding: 20px 0; /* Ajoute un espace intérieur en haut et en bas */
+    text-align: center; /* Centre le texte */
+  }
+  
+  /* Icônes des réseaux sociaux */
+  .social-icons a {
+    font-size: 1.5rem; /* Définit la taille des icônes */
+    transition: color 0.3s ease; /* Ajoute une transition fluide au changement de couleur */
+  }
+  
+  /* Effet au survol des icônes sociales */
+  .social-icons a:hover {
+    color: #ffc107 !important; /* Change la couleur des icônes en jaune doré au survol */
+  }
+  
+  /* Animation pour faire apparaître en fondu */
+  @keyframes fadeIn {
+    from { opacity: 0; } /* Débute avec une opacité à 0 */
+    to { opacity: 1; } /* Augmente l'opacité à 1 */
+  }
+  
+  /* Ajoute une durée d'animation par défaut */
+  .animate__animated {
+    animation-duration: 1s;
+  }
+  
+  /* Animation de fondu vers le bas */
+  .animate__fadeInDown {
+    animation-name: fadeInDown;
+  }
+  
+  /* Animation de fondu vers le haut */
+  .animate__fadeInUp {
+    animation-name: fadeInUp;
+  }

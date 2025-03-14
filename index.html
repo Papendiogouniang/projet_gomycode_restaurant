@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Jolof</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+  <!-- Barre de navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Jolof</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">À propos de nous</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section Héros -->
+  <div class="hero-section" id="accueil">
+    <div class="hero-content text-center">
+      <h1 class="display-4 animate__animated animate__fadeInDown">Bienvenue chez Jolof</h1>
+      <p class="lead animate__animated animate__fadeInUp">Découvrez les saveurs authentiques du Sénégal</p>
+      <a class="btn btn-primary btn-lg animate__animated animate__fadeInUp" href="#menu">Voir le Menu</a>
+    </div>
+  </div>
+
+  <!-- Section Menu -->
+  <div class="container my-5" id="menu">
+    <h2 class="text-center mb-4">Notre Menu</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow">
+          <img src="images/thiebou.jpg" class="card-img-top" alt="Thieboudienne">
+          <div class="card-body">
+            <h5 class="card-title">Thieboudienne</h5>
+            <p class="card-text">Le plat national sénégalais à base de riz, de poisson et de légumes.</p>
+            <p class="card-text text-primary fw-bold">900 fcfa</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow">
+          <img src="images/poulet.jpg" class="card-img-top" alt="Yassa">
+          <div class="card-body">
+            <h5 class="card-title">Yassa Poulet</h5>
+            <p class="card-text">Poulet mariné dans une sauce à l'oignon et au citron, servi avec du riz.</p>
+            <p class="card-text text-primary fw-bold">1000 fcfa</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow">
+          <img src="images/mafé.jpg" class="card-img-top" alt="Mafé">
+          <div class="card-body">
+            <h5 class="card-title">Mafé</h5>
+            <p class="card-text">Ragoût de viande ou de poisson avec une sauce à base d'arachide.</p>
+            <p class="card-text text-primary fw-bold">750 fcfa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section À propos de nous -->
+  <div class="container my-5" id="about">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="images/Capture d’écran (326).png" class="img-fluid rounded shadow" alt="Intérieur du restaurant">
+      </div>
+      <div class="col-md-6">
+        <h2 class="mb-4">À propos de nous</h2>
+        <p class="lead">
+          Bienvenue chez **Jolof**, le restaurant qui vous transporte au cœur du Sénégal grâce à ses saveurs authentiques et chaleureuses.
+          Nous proposons des plats traditionnels préparés avec des ingrédients frais et locaux, dans une ambiance conviviale et accueillante.
+          Venez découvrir notre passion pour la cuisine sénégalaise !
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Testimonials -->
+  <div class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Ce que disent nos clients</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <p class="card-text">"Le meilleur Thieboudienne que j'ai jamais mangé ! Une expérience incroyable."</p>
+              <p class="text-muted">— Marie Ndiaye</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <p class="card-text">"Ambiance chaleureuse et plats délicieux. Je recommande vivement !"</p>
+              <p class="text-muted">— Jean Niang</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <p class="card-text">"Le Yassa Poulet est à tomber par terre. Un vrai régal !"</p>
+              <p class="text-muted">— Fatou Sow</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Contact -->
+  <div class="container my-5" id="contact">
+    <h2 class="text-center mb-4">Contactez-nous</h2>
+    <div class="row">
+      <!-- Formulaire de contact -->
+      <div class="col-md-6">
+        <div class="card shadow p-4">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="name" placeholder="Votre nom">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Votre email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Carte Google Maps -->
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="card shadow p-4">
+          <h5 class="text-center">Où nous trouver</h5>
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30865.795564846518!2d-17.44549725743831!3d14.75638118795582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10cbfe3968955%3A0xfbc31ca8d8e7ce8c!2sPikine%20Ouest%2C%20Pikine!5e0!3m2!1sfr!2ssn!4v1741958329312!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2023 Restaurant Jolof. Tous droits réservés.</p>
+      <div class="social-icons">
+        <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
